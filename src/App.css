@@ -1,38 +1,92 @@
-.App {
+body{
+  margin:0;
+  padding:0;
+  background-color: #383838 !important;
+  color:white !important;
+}
+.body{
+  background-color: #383838;
+}
+.col-md-3 {
+  border-right: 1px solid yellow;
+  height: 100%;
+}
+.card-style{
+  margin-top: 5rem;
+}
+.img{
+  content: url("/images/profile-pic.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.title{
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btns{
+  text-align: center;
+  font-size: 1.5rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.color{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.color:hover{
+  text-decoration: none;
+  display:inline-grid;
+  color:black;
+  transition: 0.5s;
+  background-color: #ffc107;;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
-
-.App-link {
-  color: #61dafb;
+.homeDp {
+  width: 15%;
+  margin-top: 2rem;
 }
+.info {
+  text-indent: 80px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.st_font{
+  font-family: Poppins;
+  font-weight: 300;
+}
+.skill{
+  color: orange;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  border-bottom: 1px solid yellow;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.skill-row{
+  margin-top: 3rem;
+}
+.i-color{
+  color:rgb(89, 177, 17);
+}
+.des-color{
+  color: silver;
+}
+.Contact{
+  margin-top: 7rem;
+}
+.btn i {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  line-height: 10px;
+  font-size: 30px;
+  transition: 0.2s linear;
+  color:rgb(89, 177, 17);
+
 }
