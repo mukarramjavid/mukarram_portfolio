@@ -7,9 +7,10 @@ export default function Skills() {
         <Row>
           <Col className="skill">
             <h1>Skills</h1>
+    <Button variant="outline-warning" className="float-right">Warning</Button>
           </Col>
         </Row>
-    <Button variant="outline-warning">Warning</Button>
+    
         {/* Row 1 */}
         <Row className="skill-row text-center">
     
