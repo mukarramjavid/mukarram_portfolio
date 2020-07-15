@@ -5,7 +5,7 @@ export default function Skills() {
     <>
       <Container>
         <Row>
-          <Col className="skill">
+          <Col className="skill" md={12} xs={12}>
             <h1>Skills <Button href="https://mukarramblog.netlify.app/" target="_blank" variant="outline-warning" className="float-right">See my mini Projects</Button></h1>
           </Col>
         </Row>
