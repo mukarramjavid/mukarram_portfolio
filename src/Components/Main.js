@@ -18,10 +18,10 @@ const Main = () => {
           </Col>
           <Col md={9} xs={12}>
             <Switch>
-              <Route path="/" exact> <Home/></Route>
-              <Route  path="/skills" ><Skills/></Route>
-              <Route  path="/services"><Services/></Route>
-              <Route  path="/contact" ><Contact/></Route>
+              <Route path="/" exact component={Home} />
+              <Route  path="/skills" component={Skills} />
+              <Route  path="/services" component={Services} />
+              <Route  path="/contact" component={Contact} />
             </Switch>
           </Col>
         </Row>
