@@ -19,9 +19,9 @@ const Main = () => {
           <Col md={9} xs={12}>
             <Switch>
               <Route path="/" exact> <Home/></Route>
-              <Route  path="/Skills" ><Skills/></Route>
-              <Route  path="/Services"><Services/></Route>
-              <Route  path="/Contact" ><Contact/></Route>
+              <Route  path="/skills" ><Skills/></Route>
+              <Route  path="/services"><Services/></Route>
+              <Route  path="/contact" ><Contact/></Route>
             </Switch>
           </Col>
         </Row>
