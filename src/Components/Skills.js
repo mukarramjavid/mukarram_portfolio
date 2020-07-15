@@ -8,8 +8,8 @@ export default function Skills() {
           <Col className="skill" md={6} sm={6} xs={12}>
             <h1>Skills</h1>
           </Col>
-  <Col className="skill" md={6} sm={6} xs={12}>
-            <Button variant="outline-warning">Click</Button>
+  <Col  md={6} sm={6} xs={12}>
+            <Button variant="outline-warning" className="float-right">Click</Button>
           </Col>
   
         </Row>
