@@ -5,10 +5,13 @@ export default function Skills() {
     <>
       <Container>
         <Row>
-          <Col className="skill">
+          <Col className="skill" md={6} sm={6} xs={12}>
             <h1>Skills</h1>
-    <Button variant="outline-warning" className="float-right">Warning</Button>
           </Col>
+  <Col className="skill" md={6} sm={6} xs={12}>
+            <Button variant="outline-warning">Click</Button>
+          </Col>
+  
         </Row>
     
         {/* Row 1 */}
