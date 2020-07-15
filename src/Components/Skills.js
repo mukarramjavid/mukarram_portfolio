@@ -9,8 +9,10 @@ export default function Skills() {
             <h1>Skills</h1>
           </Col>
         </Row>
+    <Button variant="outline-warning">Warning</Button>
         {/* Row 1 */}
         <Row className="skill-row text-center">
+    
           <Col md={6} sm={6} xs={12}>
             <h3>HTML/CSS</h3>
             <ProgressBar variant="success" now={100} label={`100%`} />
