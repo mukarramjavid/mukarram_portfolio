@@ -16,15 +16,15 @@ const Sidebar = () => {
               Home
             </Link>
             <br />
-            <Link to="/Skills" className="color">
+            <Link to="/skills" className="color">
               Skills
             </Link>
             <br />
-            <Link to="/Services" className="color">
+            <Link to="/services" className="color">
               Services
             </Link>
             <br />
-            <Link to="/Contact" className="color">
+            <Link to="/contact" className="color">
               Contact
             </Link>
           </Card.Text>
