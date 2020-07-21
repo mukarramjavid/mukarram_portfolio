@@ -38,12 +38,35 @@ body{
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
+.color:active{
+  text-decoration: none;
+  display:inline-grid;
+  color:black;
+  transition: 0.5s;
+  background-color: #ffc107;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.main-nav-active{
+  text-decoration: none;
+  display:inline-grid;
+  color:black;
+  transition: 0.5s;
+  background-color: #ffc107;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
 .color:hover{
   text-decoration: none;
   display:inline-grid;
   color:black;
   transition: 0.5s;
-  background-color: #ffc107;;
+  background-color: #ffc107;
   padding-left: 3rem;
   padding-right: 3rem;
   font-family: 'Poppins', sans-serif;
