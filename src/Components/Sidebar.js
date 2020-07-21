@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -12,21 +12,41 @@ const Sidebar = () => {
             Mukarram Javid
           </Card.Title>
           <Card.Text className="btns">
-            <Link to="/" className="color">
+            <NavLink
+              exact
+              to="/"
+              className="color"
+              activeClassName="main-nav-active"
+            >
               Home
-            </Link>
+            </NavLink>
             <br />
-            <Link to="/skills" className="color">
+            <NavLink
+              exact
+              to="/Skills"
+              className="color"
+              activeClassName="main-nav-active"
+            >
               Skills
-            </Link>
+            </NavLink>
             <br />
-            <Link to="/services" className="color">
+            <NavLink
+              exact
+              to="/Services"
+              className="color"
+              activeClassName="main-nav-active"
+            >
               Services
-            </Link>
+            </NavLink>
             <br />
-            <Link to="/contact" className="color">
+            <NavLink
+              exact
+              to="/Contact"
+              className="color"
+              activeClassName="main-nav-active"
+            >
               Contact
-            </Link>
+            </NavLink>
           </Card.Text>
         </Card.Body>
       </Card>
