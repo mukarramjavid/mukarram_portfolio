@@ -5,10 +5,10 @@ export default function Skills() {
     <>
       <Container>
         <Row>
-          <Col className="skill" md={10} xs={6} sm={10}>
+          <Col className="skill" md={11} xs={6} sm={10}>
             <h1>Skills <Button href="https://mukarramblog.netlify.app/" target="_blank" variant="outline-warning" className="float-right">Mini Projects</Button></h1>
           </Col>
-          <Col className="skill" md={2}></Col>
+          <Col className="skill" md={1}></Col>
         </Row>
     
         {/* Row 1 */}
