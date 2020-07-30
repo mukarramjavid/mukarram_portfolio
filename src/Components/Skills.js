@@ -8,7 +8,7 @@ export default function Skills() {
           <Col className="skill" md={11} xs={6} sm={10}>
             <h1>Skills <Button href="https://mukarramblog.netlify.app/" target="_blank" variant="outline-warning" className="float-right">Mini Projects</Button></h1>
           </Col>
-          <Col className="skill" md={1}></Col>
+          <Col className="skill .d-none" md={1}></Col>
         </Row>
     
         {/* Row 1 */}
