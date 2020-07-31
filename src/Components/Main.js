@@ -6,11 +6,11 @@ import Services from "./Services";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { Container, Row, Col } from "react-bootstrap";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 const Main = () => {
   return (
-    <BrowserRouter>
+
       <Container fluid>
         <Row>
           <Col md={3} xs={12}>
@@ -28,7 +28,7 @@ const Main = () => {
       </Container>
       <hr />
       <Footer />
-    </BrowserRouter>
+   
   );
 };
 
