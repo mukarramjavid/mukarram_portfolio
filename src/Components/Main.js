@@ -10,7 +10,7 @@ import { Route, Switch } from "react-router-dom";
 
 const Main = () => {
   return (
-
+<>
       <Container fluid>
         <Row>
           <Col md={3} xs={12}>
@@ -28,6 +28,7 @@ const Main = () => {
       </Container>
       <hr />
       <Footer />
+</>
    
   );
 };
