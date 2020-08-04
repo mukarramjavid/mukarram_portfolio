@@ -15,16 +15,16 @@ export default function Home() {
                 <div className="infoText">
                   <p className="info">
                     I am <b style={{ color: "#ff9800" }}>Mukarram Javid </b>
-                    having 2 year experince of full-stack development. I offer
+                    having 2 year experience of full-stack development. I offer
                     the technical expertise you are seeking for web developer
                     position.
                   </p>
                   <p className="info">
-                    Since earning my bachoelor's degree in Computer Science from
+                    Since earning my bachelor's degree in Computer Science from
                     University of Engineering & Technology, Lahore. I am having
-                    2 years experince of ASP.NET MVC 5. Recently, I have
+                    2 years experience of ASP.NET MVC 5. Recently, I have
                     completed my Final Year Project in ASP.NET MVC 5 using
-                    Entity Framework 6. Now, I am learing JS framework
+                    Entity Framework 6. Now, I am learning JS library
                     'React.js' & 'Web API'.{" "}
                   </p>
                 </div>
