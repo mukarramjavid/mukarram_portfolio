@@ -21,7 +21,7 @@ const Sidebar = () => {
             >
               Home
             </NavLink>
-            <br />
+           
             <NavLink
               exact
               to="/skill"
@@ -30,7 +30,7 @@ const Sidebar = () => {
             >
               Skills
             </NavLink>
-            <br />
+          
             <NavLink
               exact
               to="/service"
@@ -39,7 +39,7 @@ const Sidebar = () => {
             >
               Services
             </NavLink>
-            <br />
+       
             <NavLink
               exact
               to="/contact"
