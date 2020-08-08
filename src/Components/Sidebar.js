@@ -12,7 +12,6 @@ const Sidebar = () => {
             Mukarram Javid
           </Card.Title>
           <Card.Text className="btns">
-    <li>
             <NavLink
               exact
               to="/"
@@ -21,7 +20,7 @@ const Sidebar = () => {
             >
               Home
             </NavLink>
-           
+           </br>
             <NavLink
               exact
               to="/skill"
@@ -30,7 +29,7 @@ const Sidebar = () => {
             >
               Skills
             </NavLink>
-          
+          </br>
             <NavLink
               exact
               to="/service"
@@ -48,7 +47,6 @@ const Sidebar = () => {
             >
               Contact
             </NavLink>
-    </li>
           </Card.Text>
         </Card.Body>
       </Card>
