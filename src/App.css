@@ -96,6 +96,9 @@ body{
 .skill-row{
   margin-top: 3rem;
 }
+.skill-row .margin_bottom{
+  margin-bottom: 3rem;
+}
 .i-color{
   color:rgb(89, 177, 17);
 }
