@@ -31,7 +31,6 @@ export default function Home() {
               </Card.Text>
             </Card.Body>
           </Card>
-          </Col>
         </Row>
       </Container>
     </>
