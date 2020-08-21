@@ -31,6 +31,16 @@ export default function Home() {
               </Card.Text>
             </Card.Body>
           </Card>
+          {/* CV */}
+          <Col xs={12} md={12}>
+            <a
+              href="myFiles/mukarram_resume.pdf"
+              className="btn btn-outline-warning st_font"
+              download
+            >
+              My CV
+            </a>
+          </Col>
         </Row>
       </Container>
     </>
