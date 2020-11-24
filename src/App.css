@@ -15,7 +15,7 @@ body{
   margin-top: 5rem;
 }
 .img{
-  content: url("/images/profile-pic.jpg");
+  content: url("/images/dp.jpg");
   margin-left: auto;
   margin-right: auto;
   width: 150px;
