@@ -6,7 +6,7 @@ export default function Home() {
       <Container>
         <Row>
           <Col md={12} xs={12} className="text-center d-none d-sm-block">
-            <Image src="/images/profile-pic.jpg" thumbnail className="homeDp" />
+            <Image src="/images/profile.JPEG" thumbnail className="homeDp" />
           </Col>
           <Card style={{ border: "none" }} className="">
             <Card.Body className="body">
