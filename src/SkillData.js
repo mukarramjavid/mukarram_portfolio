@@ -47,5 +47,13 @@ const skillData = [
     skillNow: 35,
     animated: "",
   },
+  {
+    id: "7",
+    skillName: "Web Crawling",
+    skillVariant: "success",
+    skillLabel: "15%",
+    skillNow: 15,
+    animated: "animated",
+  },
 ];
 export default skillData;
