@@ -9,7 +9,7 @@ const skillData = [
   },
   {
     id: "2",
-    skillName: "ASP.NET MVC 5",
+    skillName: "ASP.NET MVC 5 / Core",
     skillVariant: "primary",
     skillLabel: "80%",
     skillNow: 80,
@@ -35,8 +35,8 @@ const skillData = [
     id: "5",
     skillName: "Web API",
     skillVariant: "info",
-    skillLabel: "15%",
-    skillNow: 15,
+    skillLabel: "75%",
+    skillNow: 75,
     animated: "animated",
   },
   {
