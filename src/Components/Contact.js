@@ -20,7 +20,7 @@ export default function Contact() {
           </Col>
           <Col xs={12} md={4} sm={4}>
             <i class="fas fa-envelope i-color fa-3x" aria-hidden="true"></i>
-            <h4>mukarram_javid@yahoo.com</h4>
+            <h4>mukarramjavid@gmail.com</h4>
           </Col>
         </Row>
       </Container>
