@@ -108,6 +108,9 @@ body{
 .Contact{
   margin-top: 7rem;
 }
+.btnClass{
+  padding: 1.5rem;
+}
 .btnClass i {
 
   line-height: 10px;
