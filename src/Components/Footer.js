@@ -11,7 +11,7 @@ export default function Footer() {
         </Row>
         <Row>
           <Col xs={12} md={12} className="text-center">
-            <a className="btn" href="https://twitter.com/hafizj1125/">
+            <a className="" href="https://twitter.com/hafizj1125/">
               <i className="fab fa-twitter"></i>
             </a>
             <a className="btn " href="https://facebook.com/hafizj1125/">
