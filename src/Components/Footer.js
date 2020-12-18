@@ -11,16 +11,16 @@ export default function Footer() {
         </Row>
         <Row>
           <Col xs={12} md={12} className="text-center">
-            <a className="" href="https://twitter.com/hafizj1125/">
+            <a className="btnClass" href="https://twitter.com/hafizj1125/">
               <i className="fab fa-twitter"></i>
             </a>
-            <a className="btn " href="https://facebook.com/hafizj1125/">
+            <a className="btnClass" href="https://facebook.com/hafizj1125/">
               <i className="fab fa-facebook"></i>
             </a>
-            <a className="btn" href="https://github.com/mukarramjavid/">
+            <a className="btnClass" href="https://github.com/mukarramjavid/">
               <i class="fab fa-github"></i>
             </a>
-            <a className="btn" href="https://www.linkedin.com/in/hafizj1125/">
+            <a className="btnClass" href="https://www.linkedin.com/in/hafizj1125/">
               <i class="fab fa-linkedin"></i>
             </a>
           </Col>
