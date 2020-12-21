@@ -25,7 +25,7 @@ export default function Home() {
                     2 years experience of ASP.NET MVC 5. Recently, I have
                     completed my Final Year Project in ASP.NET MVC 5 using
                     Entity Framework 6. Now, I am learning JS library
-                    'React.js' & 'Web API'.{" "}
+                    'React.js' & 'Web API'.{" "} If you see my 'Resume' then click on <a href="https://europa.eu/!Bt89Cg" target="_blank"> this link. </a>
                   </p>
                 </div>
               </Card.Text>
