@@ -23,7 +23,7 @@ export default function Contact() {
             <h4>mukarramjavid@gmail.com</h4>
           </Col>
               <Col xs={12} md={3} sm={3}>
-            <div class="fb-page" data-href="https://www.facebook.com/hafizj1125/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+            <div class="fb-page" data-href="https://www.facebook.com/UniversityWaliAwam" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/UniversityWaliAwam" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UniversityWaliAwam">University Wali Awam</a></blockquote></div>
           </Col>
         </Row>
       </Container>
