@@ -16,8 +16,8 @@ const ServiceData = [
   },
   {
     id: "4",
-    skillName: "WordPress",
-    iconName: "i-color fab fa-wordpress fa-3x",
+    skillName: "Web Crawling/Scraping",
+    iconName: "i-color fas fa-spider fa-3x",
   },
   {
     id: "5",
