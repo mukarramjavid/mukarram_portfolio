@@ -8,10 +8,10 @@ import Footer from "./Footer";*/
 import { Container, Row, Col } from "react-bootstrap";
 import { Route, Switch } from "react-router-dom";
 
-const Home = lazy(() => import('./Components/Home'));
-const About = lazy(() => import('./Components/About'));
-const Skills = lazy(() => import('./Components/Skills'));
-const Contact = lazy(() => import('./Components/Contact'));
+const Home = lazy(() => import('./Home'));
+const About = lazy(() => import('./About'));
+const Skills = lazy(() => import('./Skills'));
+const Contact = lazy(() => import('./Contact'));
 const Main = () => {
   return (
 <>
