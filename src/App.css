@@ -121,9 +121,9 @@ body{
 }
 .loader_img img{
   display:flex;
-  margin:auto auto auto auto;
+  margin:auto ;
 
-  width:5rem;
-  height:5rem;
+  width:5rem !important;
+  height:5rem !important;
 
 }
