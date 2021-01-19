@@ -119,7 +119,7 @@ body{
   color:rgb(89, 177, 17);
 
 }
-.loader_img img[
+.loader_img img{
   display:flex;
   margin-left:auto;
   margin-right:auto;
