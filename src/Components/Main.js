@@ -3,13 +3,13 @@ import Sidebar from "./Sidebar";
 /*import Home from "./Home";
 import Skills from "./Skills";
 import Services from "./Services";
-import Contact from "./Contact";
-import Footer from "./Footer";*/
+import Contact from "./Contact";*/
+import Footer from "./Footer";
 import { Container, Row, Col } from "react-bootstrap";
 import { Route, Switch } from "react-router-dom";
 
 const Home = lazy(() => import('./Home'));
-const About = lazy(() => import('./About'));
+const Services = lazy(() => import('./Services'));
 const Skills = lazy(() => import('./Skills'));
 const Contact = lazy(() => import('./Contact'));
 const Main = () => {
