@@ -21,7 +21,7 @@ const Main = () => {
             <Sidebar />
           </Col>
           <Col md={9} xs={12}>
-          <Suspense fallback={<div className="loader_img"><img src="/images/profile.JPEG" alt="mloader"/></div>}>
+          <Suspense fallback={<div className="loader_img"><img src="/images/loading.gif" alt="mloader"/></div>}>
             <Switch>
               <Route exact path="/"  component={Home} />
               <Route exact path="/skill"  component={Skills} />
